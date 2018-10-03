@@ -1,0 +1,213 @@
+body {
+	margin: 20px;
+	background-color: #02010a;
+	text-align: center;
+}
+
+#cabecera {
+
+	background-color: #5b7989;
+	box-shadow: 2px 2px #02010a;
+	border-radius: 10px 10px 0 0;
+
+}
+
+ul.menu{
+
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.ali_der{
+
+	float: right;
+}
+
+.ali_izq{
+	color: white;
+	text-align: left;
+	padding: 14px 16px;
+	width: 300px;
+}
+
+.menu li a {
+
+	display: inline-block;
+	color: white;
+	text-align: right;
+	
+	padding: 14px 16px;
+}
+
+#imagen_central {
+
+	text-align: center;
+	background-color: #82c3a6;
+}
+
+#contenido_pri{
+
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+#contenido{
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+#contenido_paisajes{
+	background-color: #d5c75f;
+	display: flex;
+	flex-direction: column;
+
+}
+
+#contenido_arriba{
+	align-content: center;
+	display: flex;
+	flex-direction: row;
+}
+
+#contenido_abajo{
+	align-content: center;
+	display: flex;
+	flex-direction: row;
+}
+
+#imagen_secundaria{
+
+	display: flex;
+	flex-direction: row;
+	background-color: #d5c75f;
+	border: 1px;
+	text-align: center;
+}
+
+
+#izquierda img{
+
+	box-shadow: 2px 2px #82c3a6;
+	border: 2px;
+}
+
+#izquierda img:hover {
+	transform: rotate(-10deg);
+}
+
+#derecha img{
+
+	box-shadow: 2px 2px #82c3a6;
+}
+
+#derecha img:hover {
+
+	transform:translate(20px,-5px);
+
+}
+
+
+#imagen1 img{
+	box-shadow: 2px 2px #02010a;
+	filter: blur(10px);
+}
+
+#imagen2 img{
+	box-shadow: 2px 2px #02010a;
+	filter: grayscale(100%);
+}
+
+#imagen3 img{
+	box-shadow: 2px 2px #02010a;
+	filter: sepia(90%);
+}
+
+#imagen4 img{
+	box-shadow: 2px 2px #02010a;
+	filter: grayscale(100%);
+}
+
+#imagen6 img{
+	box-shadow: 2px 2px #02010a;
+	filter: grayscale(100%);
+}
+
+#pie_pagina{
+
+	background-color: #C6d5c5;
+	box-shadow: 2px 2px #02010a;
+	border-radius: 0 0 10px 10px;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+#pie_pagina div{
+
+	width: 25%;
+}
+
+#pie_pagina p{
+
+	font-size: 1em;
+}
+
+@media (max-width: 900px){
+
+	#central img{
+
+		width: 100%;
+	}
+
+	#imagen_secundaria{
+
+		display: flex;
+		flex-direction: column;
+		background-color: #d5c75f;
+		border: 1px;
+		text-align: center;
+}
+
+#pie_pagina{
+
+	border-radius: 0 0 10px 10px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+#contenido_arriba{
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#contenido_abajo{
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#contenido_pri{
+
+	width: 100%;
+}
+
+.ali_izq{
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+.ali_der{
+
+	float: right;
+	text-align: center;
+}
+
+}
