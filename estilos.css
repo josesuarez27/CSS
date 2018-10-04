@@ -61,20 +61,20 @@ ul.menu{
 	
 }
 
-#contenido_paisajes{
+.contenido_paisajes{
 	background-color: #d5c75f;
 	display: flex;
 	flex-direction: column;
 
 }
 
-#contenido_arriba{
+.contenido_arriba{
 	align-content: center;
 	display: flex;
 	flex-direction: row;
 }
 
-#contenido_abajo{
+.contenido_abajo{
 	align-content: center;
 	display: flex;
 	flex-direction: row;
@@ -112,27 +112,27 @@ ul.menu{
 }
 
 
-#imagen1 img{
+.imagen1 img{
 	box-shadow: 2px 2px #02010a;
 	filter: blur(10px);
 }
 
-#imagen2 img{
+.imagen2 img{
 	box-shadow: 2px 2px #02010a;
 	filter: grayscale(100%);
 }
 
-#imagen3 img{
+.imagen3 img{
 	box-shadow: 2px 2px #02010a;
 	filter: sepia(90%);
 }
 
-#imagen4 img{
+.imagen4 img{
 	box-shadow: 2px 2px #02010a;
 	filter: grayscale(100%);
 }
 
-#imagen6 img{
+.imagen6 img{
 	box-shadow: 2px 2px #02010a;
 	filter: grayscale(100%);
 }
@@ -181,13 +181,13 @@ ul.menu{
 	text-align: center;
 }
 
-#contenido_arriba{
+.contenido_arriba{
 	align-content: center;
 	display: flex;
 	flex-direction: column;
 }
 
-#contenido_abajo{
+.contenido_abajo{
 	align-content: center;
 	display: flex;
 	flex-direction: column;
@@ -208,6 +208,16 @@ ul.menu{
 
 	float: right;
 	text-align: center;
+}
+
+#izquierda img{
+
+	width: 100%;
+}
+
+#derecha img{
+
+	width: 100%;
 }
 
 }
