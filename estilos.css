@@ -2,6 +2,28 @@ body {
 	margin: 20px;
 	background-color: #02010a;
 	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+
+header {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  
+  0%{
+  		margin-top: 150%;
+  }
+    
+  60% {
+  		margin-top: -5%;
+  }
+  
+  100%{
+    
+    margin-top: 0%;
+  }
 }
 
 #cabecera {
@@ -27,11 +49,17 @@ ul.menu{
 
 .ali_izq{
 	color: white;
+	border: 0px;
 	text-align: left;
 	padding: 14px 16px;
 	width: 300px;
 }
 
+#titulo{
+
+	box-shadow: 2px 2px #02010a;
+	text-align: center;
+}
 .menu li a {
 
 	display: inline-block;
